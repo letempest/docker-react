@@ -1,5 +1,8 @@
-runtime: custom
+runtime: node_js
 env: flex
+automatic_scaling:
+  min_num_instances: 1
+  max_num_instances: 5
 
 env_variables:
   BUCKET_NAME: docker-react-278610.appspot.com
