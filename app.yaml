@@ -1,0 +1,13 @@
+runtime: custom
+env: flex
+
+env_variables:
+  BUCKET_NAME: docker-react.appspot.com
+
+handlers:
+  - url: /
+    static_files: build/index.html
+    upload: build/index.html
+
+  - url: /
+    static_dir: build
