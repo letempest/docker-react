@@ -2,7 +2,7 @@ runtime: custom
 env: flex
 
 env_variables:
-  BUCKET_NAME: docker-react.appspot.com
+  BUCKET_NAME: docker-react-278610.appspot.com
 
 handlers:
   - url: /
